@@ -1,0 +1,42 @@
+Git Lab Tutorials done 10/20/23
+GitHub Account made december 2016
+1)-----------------
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 1.07 KiB | 1.07 MiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Mgiordantx/assignment2.git
+   f4975e5..6668f04  master -> master
+2)------------------
+$ git rev-list --count --all
+9
+3)------------------
+$ git log
+
+commit 4b0ef0929127cf89134d49a97d381c4dc9e954c5
+Author: Mgiordantx <mgiordantx@gmail.com>
+Date:   Fri Oct 20 15:52:48 2023 -0400
+
+    Repository owner information added to README.md
+
+    added fsuID and name
+4)-------------------
+branching allows for experimental work to be done separately from stable work and for each developer to have their own branch which makes merging easier
+5)-------------------
+git status gives a current status while log provides a detailed list of all previous jobs
+6)-------------------
+git log --follow Vehicle.h
+7)-------------------
+git log --grep=“file“
+8)-------------------
+Inheritance is creating a sublcass which inherits functionality from its parent class.
+Polymorphism is creating multiple methods with different implementations under the same name. 
+Encapsulation is containing all of the code related to one functionality in one space, whether that be a class or interface or collection of classes and interfaces. 
+9)-------------------
+In the integration manager workflow developers make changes to public developer repositories and then one integration manager takes those changes and puts them to one blessed repository which the developers pull from again. In a dictatorship workflow the developers push to lieutenants' repositories and which then go to the dictator and then the blessed repository. The developers all still pull from that blessed repository.
+10)------------------
+A large team of 100 developers would benefit from the dictator/lieutenants workflow in that it could have a dedicated corps of lieutenants that accumulate changes from developers and then filter changes to the dictator, having that hierarchy would reduce strain on any one person.
